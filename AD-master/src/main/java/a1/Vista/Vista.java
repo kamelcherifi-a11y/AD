@@ -110,7 +110,7 @@ public class Vista {
 		System.out.print("Nuevo teléfono (" + alumnoExistente.getTelefono() + "): ");
 		String telefonoStr = sc.nextLine();
 
-		if (!nombre.isBlank()) alumnoExistente.setNombre(nombre);
+		if (!nombre.isEmpty()) alumnoExistente.setNombre(nombre);
 		if (!apellido1.isBlank()) alumnoExistente.setApellido1(apellido1);
 		if (!apellido2.isBlank()) alumnoExistente.setApellido2(apellido2);
 		if (!telefonoStr.isBlank()) {
